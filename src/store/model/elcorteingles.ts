@@ -16,6 +16,10 @@ export const Elcorteingles: Store = {
         container: '.product_detail-purchase.mb-2.c12 .js-add-cart-text',
         text: ['a la cesta'],
       },
+      {
+        container: 'c12.button._normal._enabled.js-buy-button.js-add-to-cart',
+        text: ['a la cesta'],
+      },
     ],
     maxPrice: {
       container: '.product_detail-buy-price-container .price._big',
@@ -31,6 +35,11 @@ export const Elcorteingles: Store = {
         container:
           '.product_detail-purchase.mb-2.c12 .c12.button._normal.js-buy-button._sold_out.view-page._disabled',
         text: ['No disponible'],
+      },
+      {
+        container:
+          '.c12.button._normal._disabled',
+        text: ['Agotado temporalmente'],
       },
     ],
   },

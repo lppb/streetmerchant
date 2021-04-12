@@ -21,7 +21,6 @@ export function sendPushoverNotification(link: Link, store: Store) {
             priority: pushover.priority,
             sound: pushover.sound,
             title: Print.inStock(link, store),
-            device: pushover.device,
             ...(link.screenshot && {file: `./${link.screenshot}`}),
           }
         : {
@@ -31,7 +30,6 @@ export function sendPushoverNotification(link: Link, store: Store) {
             sound: pushover.sound,
             retry: pushover.retry,
             title: Print.inStock(link, store),
-            device: pushover.device,
             ...(link.screenshot && {file: `./${link.screenshot}`}),
           };
 

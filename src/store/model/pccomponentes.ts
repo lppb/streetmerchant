@@ -11,10 +11,16 @@ export const PCComponentes: Store = {
       container: '#precio-main',
       euroFormat: true,
     },
-    outOfStock: {
-      container: '#btnsWishAddBuy',
-      text: ['Avísame'],
-    },
+    outOfStock: [
+      {
+        container: '#btnsWishAddBuy',
+        text: ['Avísame'],
+      },
+      {
+        container: '#priceBlock',
+        text: ['No disponible'],
+      },
+    ],
   },
   links: [
     {
@@ -23,6 +29,20 @@ export const PCComponentes: Store = {
       series: 'test:series',
       url:
         'https://www.pccomponentes.com/gigabyte-geforce-gtx-1660-super-oc-6gb-gddr6',
+    },
+    {
+      brand: 'sony',
+      model: 'ps5 console',
+      series: 'sonyps5c',
+      url:
+        'https://www.pccomponentes.com/sony-playstation-5',
+    },
+    {
+      brand: 'microsoft',
+      model: 'xbox series x',
+      series: 'xboxsx',
+      url:
+        'https://www.pccomponentes.com/microsoft-xbox-series-x-1tb',
     },
     {
       brand: 'zotac',

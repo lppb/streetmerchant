@@ -46,7 +46,7 @@ export const AmazonFr: Store = {
       brand: 'evga',
       model: 'ftw3',
       series: '3080',
-      url: 'https://www.amazon.fr/dp/B08HGBYWQ6',
+      url: 'https://www.amazon.fr/dp/B08HR3DPGW',
     },
     {
       brand: 'evga',
